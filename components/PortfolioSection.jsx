@@ -33,13 +33,7 @@ export default function PortfolioSection() {
               <div style={{ display: "flex", gap: DS.gapTags, flexWrap: "wrap", marginBottom: DS.sp5 }}>
                 {["React","Supabase","RLS","Multi-tenant","Netlify"].map(t => <Tag key={t} variant="muted">{t}</Tag>)}
               </div>
-              <a href="https://agendio-adm.netlify.app" target="_blank" rel="noopener noreferrer" style={{
-                fontSize: DS.smallSize, fontWeight: DS.buttonWeight, color: DS.green, textDecoration: "none",
-                display: "inline-flex", alignItems: "center", gap: 6, transition: "gap .3s",
-              }} onMouseEnter={e => e.currentTarget.style.gap = "10px"}
-                 onMouseLeave={e => e.currentTarget.style.gap = "6px"}>
-                Ver projeto ao vivo <ArrowIcon />
-              </a>
+             
             </div>
           </div>
         </Reveal>

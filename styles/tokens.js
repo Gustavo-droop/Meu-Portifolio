@@ -49,7 +49,7 @@ export const DS = {
 
   /* ── Typography ── */
   fontBody:    "'Satoshi', -apple-system, sans-serif",
-  fontDisplay: "'Instrument Serif', Georgia, serif",
+  fontDisplay: "var(--font-display), 'Instrument Serif', Georgia, serif",
 
   labelSize:     12,
   labelWeight:   700,
@@ -87,5 +87,6 @@ export const DS = {
   gapInline: 24,
 };
 
+/** WhatsApp profissional */
 export const WA_LINK =
-  "https://wa.me/5500000000000?text=Olá! Vim pelo site e gostaria de um orçamento.";
+  "https://wa.me/5521973938044?text=Olá! Vim pelo site e gostaria de um orçamento.";

@@ -64,10 +64,11 @@ export default function Navbar() {
               style={{ color: DS.gray1, textDecoration: "none", fontSize: DS.bodySize, fontWeight: 500 }}>{l}</a>
           ))}
           <a href="#cta" onClick={() => setOpen(false)} style={{
-            background: DS.orange, color: "#fff",
+            background: DS.white, color: DS.bg,
             padding: DS.buttonPadLg, borderRadius: DS.buttonRadius,
             fontSize: DS.buttonFontSize, fontWeight: DS.buttonWeight,
             textDecoration: "none", textAlign: "center",
+            transition: "all .3s",
           }}>Falar comigo</a>
         </div>
       )}

@@ -14,20 +14,20 @@ export default function CTASection() {
             fontFamily: DS.fontDisplay, fontSize: "clamp(36px, 5.5vw, 60px)",
             fontWeight: 400, lineHeight: 1.05, letterSpacing: DS.titleTracking, marginBottom: DS.sp5,
           }}>
-            Vamos construir<br/>
-            <em style={{ background: `linear-gradient(135deg, ${DS.orange}, #fdba74)`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontStyle: "italic" }}>algo que funciona?</em>
+            Pronto pra ter um site que<br/>
+            <em style={{ background: `linear-gradient(135deg, ${DS.orange}, #fdba74)`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontStyle: "italic" }}>trabalha por você?</em>
           </p>
         </Reveal>
         <Reveal delay={0.1}>
           <BodyText style={{ fontSize: 17, marginBottom: DS.sp7 }}>
-            Me manda uma mensagem, conta sobre o seu negócio, e em até 24h
-            te envio uma proposta clara e sem enrolação.
+            Me conta o que seu negócio precisa. Em até 24h te envio uma proposta
+            com escopo, prazo e investimento — sem enrolação, sem compromisso.
           </BodyText>
         </Reveal>
         <Reveal delay={0.2}>
           <ButtonPrimary href={WA_LINK} target="_blank" rel="noopener noreferrer"
             style={{ padding: "20px 48px", borderRadius: DS.sp4, fontSize: 17 }}>
-            <WhatsAppIcon /> Falar no WhatsApp
+            <WhatsAppIcon /> Chamar no WhatsApp
           </ButtonPrimary>
         </Reveal>
       </div>

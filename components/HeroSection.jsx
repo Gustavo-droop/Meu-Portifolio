@@ -20,26 +20,27 @@ export default function HeroSection() {
 
       <div className="flex items-center gap-20 max-w-[1200px] w-full flex-col lg:flex-row">
         <div className="flex-1 max-w-[560px] text-center lg:text-left">
-          <Reveal><SectionLabel>Desenvolvedor Full-Stack</SectionLabel></Reveal>
+          <Reveal><SectionLabel>Sites &amp; Sistemas para Negócios Locais</SectionLabel></Reveal>
           <Reveal delay={0.08}>
             <h1 style={{
               fontFamily: DS.fontDisplay, fontSize: "clamp(40px, 5.5vw, 68px)",
               lineHeight: 1.0, letterSpacing: "-.04em", fontWeight: 400, marginBottom: DS.sp5,
             }}>
-              Construo sites que<br/>
-              <em style={{ fontStyle: "italic", color: DS.green }}>vendem de verdade</em>
+              Seu negócio lotado<br/>
+              <em style={{ fontStyle: "italic", color: DS.green }}>sem depender de indicação</em>
             </h1>
           </Reveal>
           <Reveal delay={0.16}>
             <BodyText style={{ maxWidth: 460, marginBottom: DS.sp7 }}>
-              Sites, sistemas SaaS e automações sob medida para negócios que
-              querem parar de depender só do WhatsApp e começar a escalar.
+              Desenvolvo sites, sistemas e automações sob medida 
+              para negócios que querem parar de perder clientes
+              no WhatsApp e começar a faturar de forma automática.
             </BodyText>
           </Reveal>
           <Reveal delay={0.24}>
             <div style={{ display: "flex", gap: DS.gapCards, flexWrap: "wrap", justifyContent: "inherit" }}>
-              <ButtonPrimary href="#cta">Solicitar orçamento</ButtonPrimary>
-              <ButtonSecondary href="#portfolio">Ver meu trabalho</ButtonSecondary>
+              <ButtonPrimary href="#cta">Quero meu site profissional</ButtonPrimary>
+              <ButtonSecondary href="#portfolio">Ver projeto ao vivo</ButtonSecondary>
             </div>
           </Reveal>
         </div>
